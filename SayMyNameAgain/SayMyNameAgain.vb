@@ -1,12 +1,12 @@
 ﻿Module SayMyNameAgain
 
     Sub Main()
-        Console.WriteLine("What's your name?") 'displays whats your name to user
-        Dim Name As String = Console.ReadLine() 'reads anything typed by the user as a name
+        Console.WriteLine("What's your name?")
+        Dim Name As String = Console.ReadLine()
 
-        Select Case Name.ToLower() 'allows for lower case lettering
+        Select Case Name.ToLower()
 
-            'if any of the following cases are detetced, it will choose from the following
+
             Case "emily"
                 Console.WriteLine("Hey Emily! It's so good to see you!")
 
