@@ -1,12 +1,16 @@
-﻿Module SayMyNameAgain
+﻿'Noah Holloway
+'RCET2265
+'Spring 2025
+'Say My Name Again
+Option Explicit On
+Option Strict On
+Module SayMyNameAgain
 
     Sub Main()
         Console.WriteLine("What's your name?")
         Dim Name As String = Console.ReadLine()
 
         Select Case Name.ToLower()
-
-
             Case "emily"
                 Console.WriteLine("Hey Emily! It's so good to see you!")
 
